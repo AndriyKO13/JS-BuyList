@@ -479,13 +479,21 @@
         
         @media print {
         .badge-text {
+            background-color: white;
             display: none;
         }}
         
         @media print {
         .badge-author {
+            background-color: white;
             display: block;
             color: black;
+        }}
+        
+        @media print {
+        .badge:hover {
+            height: 120px;
+            background-color: white;
         }}
         
         .block-right {
